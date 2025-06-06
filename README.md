@@ -8,7 +8,7 @@
 <h2 id="technologies">💻 Tecnologias (Technologies)</h2>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,css,git,github,html,js,d3,nodejs,react,ts,vscode,yarn,java,maven,spring,postgres" />
+    <img src="https://skillicons.dev/icons?i=git,github,html,css,js,d3,nodejs,react,ts,vscode,yarn,java,maven,spring,postgres" />
   </a>
 </p>
 
