@@ -8,12 +8,12 @@
 <h2 id="technologies">💻 Tecnologias (Technologies)</h2>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,html,css,js,d3,nodejs,react,ts,vscode,yarn,java,maven,spring,postgres" />
+    <img src="https://skillicons.dev/icons?i=git,github,html,css,js,d3,nodejs,react,ts,vscode,yarn,eclipse,java,maven,spring,postgres" />
   </a>
 </p>
 
 <p align="center">
-- CSS - HTML5 - Git | GitHub - JavaScript - D3 - NodeJS - REACT - TypeScript - VSCode - Yarn - JAVA - MAVEN - Spring - Postgres
+- CSS - HTML5 - Git | GitHub - JavaScript - D3 - NodeJS - REACT - TypeScript - VSCode - Yarn - JAVA - MAVEN - Spring - Postgres - Eclipse
 </p>
 
 <h2 id="started">🚀 Começando (Getting started)</h2>
