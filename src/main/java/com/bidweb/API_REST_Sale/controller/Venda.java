@@ -1,7 +1,7 @@
 package com.bidweb.API_REST_Sale.controller;
 
+
 import jakarta.persistence.*;
-import jakarta.validation.constraints.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
@@ -13,21 +13,15 @@ public class Venda {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
-    @NotBlank(message = "Nome do produto é obrigatório")
     @Column(name = "nome_produto", nullable = false)
     private String nomeProduto;
     
-    @NotNull(message = "Quantidade é obrigatória")
-    @Min(value = 1, message = "Quantidade deve ser maior que zero")
     @Column(name = "quantidade", nullable = false)
     private Integer quantidade;
     
-    @NotNull(message = "Data da venda é obrigatória")
     @Column(name = "data_venda", nullable = false)
     private LocalDateTime dataVenda;
     
-    @NotNull(message = "Valor total é obrigatório")
-    @DecimalMin(value = "0.01", message = "Valor total deve ser maior que zero")
     @Column(name = "valor_total", nullable = false, precision = 10, scale = 2)
     private BigDecimal valorTotal;
     

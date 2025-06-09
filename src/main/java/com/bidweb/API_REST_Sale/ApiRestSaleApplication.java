@@ -1,20 +1,21 @@
 package com.bidweb.API_REST_Sale;
 
+import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
 
 @SpringBootApplication
 public class ApiRestSaleApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(ApiRestSaleApplication.class, args);
-        System.out.println("\n========================================");
-        System.out.println("🚀 Sistema de Vendas iniciado com sucesso!");
-        System.out.println("📊 API disponível em: http://localhost:8080/api");
-        System.out.println("🗄️  H2 Console: http://localhost:8080/api/h2-console");
-        System.out.println("👤 Usuários padrão:");
-        System.out.println("   - admin / senha123");
-        System.out.println("   - user / 123456");
-        System.out.println("========================================\n");
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(ApiRestSaleApplication.class, args);
+	}
+
+	@Bean
+	ApplicationRunner runner(PasswordEncoder passwordEncoder){
+		return args -> System.out.println(passwordEncoder.encode("password"));
+	}
 }
